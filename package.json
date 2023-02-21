@@ -38,7 +38,7 @@
   },
   "description": "error command failed with exit code 1.",
   "main": "index.js",
-  "repository": ".",
+  "repository": "https://github.com/peggy75918/reacthw1",
   "author": "yuchen",
-  "license": "mit"
+  "license": "MIT"
 }
