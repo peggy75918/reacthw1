@@ -1,26 +1,6 @@
+import styles from './description.module.css';
+
 export default function Description() {
-    const styles = {
-        description: {
-            backgroundColor: '#00979c',
-            paddingTop: '50px',
-            paddingBottom: '50px',
-            textAlign: 'center',
-            color: 'white',
-        },
-        hrLine: {
-            width: '250px',
-            borderTop: 'solid 5px',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            opacity: '0.7',
-            borderColor: '#fff',
-        },
-        text: {
-            textIndent: '2rem',
-            color: 'white',
-        },
-    };
-    
     return (
         <div style={styles.description}>
             <div>
