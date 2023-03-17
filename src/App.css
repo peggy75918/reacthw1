@@ -35,3 +35,53 @@
   width: 1500px;
 }
 } 
+
+/* body */
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+/*Layout*/
+.mainLayout {
+  display: grid;
+  min-height: 100vh;
+  grid-template-areas: 
+  'header'
+  'content'
+  'description'
+  'footer'
+  ;
+  grid-template-rows: auto 1fr auto;
+  gap: 1em;
+}
+
+.layoutHeader {
+  grid-area: header;
+  height: 30vh;
+  color: #fff;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.layoutContent {
+  grid-area: content;
+  position: relative;
+}
+
+.layoutDescription {
+  grid-area: dedescription;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  background-color: #00979c;
+}
+
+.layoutfooter {
+  grid-area: footer;
+  
+}

@@ -1,4 +1,4 @@
-import styles from "./imagelistmodule.css";
+import styles from './imagelistmodule.css';
 import { Row, Col } from "antd";
 import ImageItem from "../ImageItem";
 

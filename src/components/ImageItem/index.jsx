@@ -1,4 +1,4 @@
-import styles from "./imageitem.module.css";
+import styles from './imageitem.module.css';
 
 export default function ImageItem({ image }){
     
