@@ -1,22 +1,6 @@
+import styles from "./imageitem.module.css";
+
 export default function ImageItem({ image }){
-    const styles = {
-        item: {
-            padding: 0,
-            fontSize: '1rem',
-        },
-        imageLink: {
-
-        },
-        imageTitle: {
-            color: 'white',
-            right: '2rem',
-            bottom: '0',
-            fontWeight: '800',
-            textTransform: 'uppercase',
-            position: 'absolute',
-        },
-
-    };
     
     return(
         <div style={styles.item}>

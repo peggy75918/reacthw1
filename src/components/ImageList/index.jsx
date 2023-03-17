@@ -1,27 +1,8 @@
+import styles from "./imagelistmodule.css";
 import { Row, Col } from "antd";
-
 import ImageItem from "./ImageItem.jsx";
-import images from "../json/images.json";
 
-export default function ImageList() {
-    const styles = {
-        imageLayout: {
-            backgroundColor: '#fff',
-            fontSize: '1rem',
-            textAlign: 'center',
-        },
-        text: {
-            
-        },
-        hrLine: {
-            width: '250px',
-            borderTop: 'solid 5px',
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            opacity: '0.7',
-            borderColor: '#2c3e50',
-        },
-    };
+export default function ImageList({ images }) {
     
     return (
         <div style={styles.imageLayout}>
