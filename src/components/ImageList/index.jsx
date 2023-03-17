@@ -1,6 +1,6 @@
 import styles from "./imagelistmodule.css";
 import { Row, Col } from "antd";
-import ImageItem from "./ImageItem.jsx";
+import ImageItem from "../ImageItem";
 
 export default function ImageList({ images }) {
     
