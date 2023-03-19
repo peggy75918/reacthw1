@@ -3,7 +3,7 @@ import styles from './imageitem.module.css';
 export default function ImageItem({ image }){
     
     return(
-        <div style={styles.item}>
+        <div className={styles.item}>
             <a href="/" className="image__link">
                 <img
                     style={{ width: '100%' }}
@@ -11,7 +11,7 @@ export default function ImageItem({ image }){
                     alt="" 
                     className="image__style"/>
             </a>
-            <p style={styles.imageTitle}>
+            <p className={styles.imageTitle}>
                 {image.image_title}
             </p>
         </div>

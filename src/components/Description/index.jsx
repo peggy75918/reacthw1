@@ -2,11 +2,11 @@ import styles from './description.module.css';
 
 export default function Description() {
     return (
-        <div style={styles.description}>
+        <div className={styles.description}>
             <div>
             <h1>DESCRIPTIONS</h1>
-            <hr style={styles.hrLine} />
-            <p style={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laborum
+            <hr className={styles.hrLine} />
+            <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laborum
                     corrupti ut iure aliquam. Quod, perferendis. Libero tempore iste, animi sint numquam illum quasi laboriosam
                     unde pariatur quidem! Suscipit consequatur nihil dolor impedit temporibus ad cum, voluptatum odit ratione
                     ullam

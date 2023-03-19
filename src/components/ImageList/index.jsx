@@ -5,10 +5,10 @@ import ImageItem from "../ImageItem";
 export default function ImageList({ images }) {
     
     return (
-        <div style={styles.imageLayout}>
+        <div className={styles.imageLayout}>
             <div>
-                <h1 style={styles.text}>IMAGES</h1>
-                <hr style={styles.hrLine}></hr>    
+                <h1 className={styles.text}>IMAGES</h1>
+                <hr className={styles.hrLine}></hr>    
                 <Row gutter={[32, 32]}>
                 {images.map(image => (
                     <Col
